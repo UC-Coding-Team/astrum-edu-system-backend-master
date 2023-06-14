@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-9^qv)dt=k39k$j4^$iq7rh5q(2oy**py&q!anog2qk8))djsm!
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*"]
 
 # Application definition
 
@@ -139,6 +139,6 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
 SWAGGER_SETTINGS = {
-    'DEFAULT_INFO': 'your_project.urls.swagger_info',
+    'DEFAULT_INFO': 'config.swagger_info',
     'LOGIN_URL': '/admin/',
 }
